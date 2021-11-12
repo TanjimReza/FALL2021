@@ -1,0 +1,21 @@
+* D:\Semester\FALL2021\CSE250\Lab2\20101065_Tanjim_Lab02\20101065_TanjimReza_Lab2_File1.sch
+
+* Schematics Version 9.2
+* Wed Nov 03 14:42:54 2021
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "nom.lib"
+
+.INC "20101065_TanjimReza_Lab2_File1.net"
+
+
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END
