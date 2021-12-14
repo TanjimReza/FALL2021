@@ -1,0 +1,22 @@
+* C:\Users\Tanjim\Desktop\Lab3\20101065_Tanjim_Lab3File1.sch
+
+* Schematics Version 9.2
+* Sun Nov 14 16:03:42 2021
+
+
+
+** Analysis setup **
+.OP 
+.STMLIB "20101065_Tanjim_Lab3File1.stl"
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "nom.lib"
+
+.INC "20101065_Tanjim_Lab3File1.net"
+
+
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END
